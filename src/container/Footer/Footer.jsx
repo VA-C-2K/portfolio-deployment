@@ -46,6 +46,28 @@ const Footer = () => {
           <img src={images.mobile} alt="phone" />
           <a href="tel:+91 928 468 0743" className="p-text">+91 928 468 0743</a>
         </div>
+        <div className="app__footer-card">
+          <img src={images.whatsapp} alt="whatsapp" />
+          <a 
+          href="https://web.whatsapp.com/send?phone=+919284680743"
+          className="p-text"
+          target='_blank'
+          aria-label='WhatsApp'
+          rel="noopener noreferrer"
+           >Connnect with me on WhatsApp
+           </a>
+        </div>
+        <div className="app__footer-card">
+          <img src={images.telegram} alt="Telegram" />
+          <a 
+          href="https://t.me/+919284680743"
+          className="p-text"
+          target='_blank'
+          aria-label='Telegram'
+          rel="noopener noreferrer"
+           >Connnect with me on Telegram
+           </a>
+        </div>
       </div>
       {!isFormSubmitted ? (
         <div className="app__footer-form app__flex">

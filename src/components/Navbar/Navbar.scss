@@ -110,12 +110,12 @@
 
     width: 80%;
     height: 100vh;
-    
+
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
-    
+
     background: url('../../assets/bgWhite.png');
     background-color: var(--white-color);
     background-size: cover;
@@ -169,5 +169,31 @@
 
   @media screen and (min-width: 900px) {
     display: none;
+  }
+}
+
+.resume {
+  padding: .5rem .8rem;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--secondary-color);
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--white-color);
+  outline: none;
+  font-size: .8rem;
+  font-family: var(--font-base);
+
+  transition: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  cursor: pointer;
+
+  &:hover {
+    background-color: #1b2ad3;
+  }
+  img{
+    margin-bottom:-7px ;
+    margin-left: 2px;
+    height: 21px;
+    width: 21px;
   }
 }

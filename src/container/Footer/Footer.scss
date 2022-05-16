@@ -45,7 +45,7 @@
         font-weight: 500;
       }
       &:hover {
-        box-shadow: 0 0 25px #fef4f5;
+        box-shadow: 0 0 25px rgb(243, 242, 242);
       }
   
       @media screen and (max-width: 450px) {
@@ -58,11 +58,11 @@
     }
   }
   
-  .app__footer-cards .app__footer-card:last-child {
+  .app__footer-cards .app__footer-card:nth-child(even) {
     background-color: #f2f7fb;
   }
   
-  .app__footer-cards .app__footer-card:last-child:hover {
+  .app__footer-cards .app__footer-card:nth-child(even):hover {
     box-shadow: 0 0 25px #f2f7fb;
   }
   

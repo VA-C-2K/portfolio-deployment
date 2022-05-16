@@ -34,8 +34,16 @@ import bolt from '../assets/bolt.png';
 import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
+import whatsapp from '../assets/whatsapp.png';
+import download from '../assets/download.png';
+import telegram from '../assets/telegram.png';
+import resume from '../assets/resume.pdf';
 
 export default {
+  download,
+  resume,
+  telegram,
+  whatsapp,
   email,
   mobile,
   api,
