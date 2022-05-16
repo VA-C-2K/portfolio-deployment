@@ -49,7 +49,7 @@ const Footer = () => {
         <div className="app__footer-card">
           <img src={images.whatsapp} alt="whatsapp" />
           <a 
-          href="https://web.whatsapp.com/send?phone=+919284680743"
+          href="https://wa.me/+919284680743"
           className="p-text"
           target='_blank'
           aria-label='WhatsApp'
