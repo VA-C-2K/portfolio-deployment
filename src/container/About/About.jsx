@@ -1,7 +1,5 @@
 import React, { useState,useEffect } from 'react';
-import { HiMenuAlt4, HiX } from 'react-icons/hi';
 import { motion } from 'framer-motion';
-import { images } from '../../constants';
 import './About.scss';
 import { urlFor, client } from '../../client';
 import {AppWrap,MotionWrap} from '../../wrapper';
@@ -12,7 +10,6 @@ const About = () => {
   useEffect(()=>{
     const query = '*[_type == "abouts"]';
     client.fetch(query).then((data) => {
-      console.log(data);
       setAbouts(data);
     });
   },[])
