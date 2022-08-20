@@ -72,6 +72,7 @@ const Work = () => {
                   <motion.div
                     whileInView={{ scale: [0, 1] }}
                     whileHover={{ scale: [1, 0.90] }}
+                    whileActive={{ scale: [0, 1]}}
                     whileTap={{ scale: [1, 0.90] }}
                     whileFocus={{ scale: [1, 0.90] }}
                     transition={{ duration: 0.25 }}
@@ -80,7 +81,7 @@ const Work = () => {
                     <AiFillEye />
                   </motion.div>
                 </a>
-                <a href={work.youtubeLink} target="_blank" rel="noreferrer">
+               {work.youtubeLink && <a href={work.youtubeLink} target="_blank" rel="noreferrer">
 
                   <motion.div
                     whileInView={{ scale: [0, 1] }}
@@ -92,7 +93,7 @@ const Work = () => {
                   >
                     <AiFillYoutube />
                   </motion.div>
-                </a>
+                </a>}
                 <a href={work.codeLink} target="_blank" rel="noreferrer">
                   <motion.div
                     whileInView={{ scale: [0, 1] }}

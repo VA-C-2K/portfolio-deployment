@@ -37,7 +37,7 @@ const SocialMedia = () => (
     </div>
     <div>
       <a
-        href='https://www.instagram.com/vac_2k'
+        href='https://www.instagram.com/dev.viraj_00'
         target='_blank'
         rel="noopener noreferrer"
         aria-label='Instagram'
