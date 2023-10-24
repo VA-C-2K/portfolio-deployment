@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 import { images } from '../../constants';
 import {AppWrap} from '../../wrapper';
@@ -28,12 +28,13 @@ const Header = () => {
           <div className="badge-cmp app__flex">
           <span>👋</span>
           <div style={{ marginLeft: 20 }}>
-            <p className="p-text">Hello, I am</p>
+            <p className="p-text">Hii, I am</p>
             <h1 className="head-text">Viraj</h1>
           </div>
           </div>
           <div className="tag-cmp app__flex">
-          <p className="p-text">Web Developer</p>
+          <p className="p-text">WebApp Developer</p>
+          <p className="p-text">Desktop Developer</p>
           <p className="p-text">Full Stack Developer</p>
           </div>
         </div>
@@ -57,7 +58,7 @@ const Header = () => {
       whileInView={scaleVariants.whileInView}
       className="app__header-circles"
     >
-      {[images.react, images.redux, images.sass].map((circle, index) => (
+      {[images.electron, images.react, images.mongodb].map((circle, index) => (
         <div className="circle-cmp app__flex" key={`circle-${index}`}>
           <img src={circle} alt="profile_bg" />
         </div>
